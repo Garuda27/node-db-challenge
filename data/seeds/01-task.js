@@ -5,7 +5,7 @@ exports.seed = function(knex) {
         // Inserts seed entries
         return knex('Task').insert([
           {id: 1, description: "surf internet", notes: "it's what i like to do", proj_id: 1},
-          {id: 2, description: "write", notes: "", proj_id: 2},
+          {id: 2, description: "write", notes: "write here", proj_id: 2},
         ]);
       });
   };

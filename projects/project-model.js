@@ -1,4 +1,4 @@
-const db = require("../data/db-configs")
+const db = require("../data/db-config")
 
 module.exports = {
     getProjectResources,

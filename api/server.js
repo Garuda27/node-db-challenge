@@ -1,9 +1,9 @@
 const express = require('express')
 const helmet = require('helmet')
 
-const ProjectRouter = require("./projects/project-router"),
+const ProjectRouter = require("../projects/project-router"),
 
-const server = express()
+    server = express();
 
 server.use(helmet())
 server.use(express.json())
