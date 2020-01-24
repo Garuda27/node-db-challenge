@@ -43,9 +43,9 @@ Demonstrate your understanding of this week's concepts by answering the followin
 - [ ] Why do tables need a `primary key`?
 
 - [ ] What is the name given to a table column that references the primary key on another table.
-
+foreign key
 - [ ] What do we need in order to have a _many to many_ relationship between two tables.
-
+intermediary table
 ## Minimum Viable Product
 
 Take the steps necessary to complete the project from scratch. Start by initializing your project with a `package.json` and go from there.
